@@ -12,7 +12,12 @@
 		F8155F552758B15300E3F0CA /* Memo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8155F532758B15300E3F0CA /* Memo.xcdatamodeld */; };
 		F8155F572758B15300E3F0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8155F562758B15300E3F0CA /* Assets.xcassets */; };
 		F8155F5A2758B15300E3F0CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8155F582758B15300E3F0CA /* LaunchScreen.storyboard */; };
+		F815E1B5275A2EF2001F06FB /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815E1B4275A2EF2001F06FB /* MemoFormVC.swift */; };
+		F815E1B7275A2F08001F06FB /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815E1B6275A2F08001F06FB /* MemoReadVC.swift */; };
+		F815E1B9275A2F44001F06FB /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815E1B8275A2F44001F06FB /* MemoCell.swift */; };
+		F815E1BB275A31C4001F06FB /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815E1BA275A31C4001F06FB /* MemoData.swift */; };
 		F81BC2F82758EC550050042A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81BC2F72758EC550050042A /* Main.storyboard */; };
+		F81BC302275A25A30050042A /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81BC301275A25A20050042A /* MemoListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +28,12 @@
 		F8155F562758B15300E3F0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8155F592758B15300E3F0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8155F5B2758B15300E3F0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F815E1B4275A2EF2001F06FB /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
+		F815E1B6275A2F08001F06FB /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
+		F815E1B8275A2F44001F06FB /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		F815E1BA275A31C4001F06FB /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
 		F81BC2F72758EC550050042A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F81BC301275A25A20050042A /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				F81BC2F72758EC550050042A /* Main.storyboard */,
 				F8155F5B2758B15300E3F0CA /* Info.plist */,
 				F8155F532758B15300E3F0CA /* Memo.xcdatamodeld */,
+				F81BC301275A25A20050042A /* MemoListVC.swift */,
+				F815E1B4275A2EF2001F06FB /* MemoFormVC.swift */,
+				F815E1B6275A2F08001F06FB /* MemoReadVC.swift */,
+				F815E1B8275A2F44001F06FB /* MemoCell.swift */,
+				F815E1BA275A31C4001F06FB /* MemoData.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F815E1B9275A2F44001F06FB /* MemoCell.swift in Sources */,
+				F815E1BB275A31C4001F06FB /* MemoData.swift in Sources */,
 				F8155F4B2758B15300E3F0CA /* AppDelegate.swift in Sources */,
+				F815E1B5275A2EF2001F06FB /* MemoFormVC.swift in Sources */,
+				F815E1B7275A2F08001F06FB /* MemoReadVC.swift in Sources */,
 				F8155F4D2758B15300E3F0CA /* SceneDelegate.swift in Sources */,
+				F81BC302275A25A30050042A /* MemoListVC.swift in Sources */,
 				F8155F552758B15300E3F0CA /* Memo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

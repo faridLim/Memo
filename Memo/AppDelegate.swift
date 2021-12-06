@@ -10,6 +10,7 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var memoList = [MemoData]() // 앱이 실행되는 동안 데이터가 지워지지 않도록 AppDelegate 클래스에 정의
 
 
 
